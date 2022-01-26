@@ -1,0 +1,599 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<style>
+@font-face {
+	font-family: symbola-daynight;
+	src: url(https://snai.pe/fonts/Symbola-DayNight.eot);
+	src: url(https://snai.pe/fonts/Symbola-DayNight.eot) format("embedded-opentype"),
+		url(https://snai.pe/fonts/Symbola-DayNight.ttf) format("truetype"),
+		url(https://snai.pe/fonts/Symbola-DayNight.woff) format("woff"),
+		url(https://snai.pe/fonts/Symbola-DayNight.svg) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
+a {
+	outline: 0
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 400px;
+	border-radius: 10px;
+	margin: 0;
+	background-color: #101010;
+	color: #63e39b;
+	font-family: 'Space Mono', monospace;
+	letter-spacing: 2px;
+}
+
+#main .left {
+	width: 30%;
+}
+
+#main .right {
+	text-align: center;
+	width: 70%;
+	padding: 2em 0;
+}
+
+a,
+a:visited {
+	color: #63e39b;
+	text-decoration: none;
+	-webkit-transition: color .15s;
+	-moz-transition: color .15s;
+	-o-transition: color .15s;
+	transition: color .15s
+}
+
+a:hover,
+a:focus {
+	color: #ef345d;
+	-webkit-transition: color .15s;
+	-moz-transition: color .15s;
+	-o-transition: color .15s;
+	transition: color .15s
+}
+
+.symbol {
+	font-family: symbola-daynight
+}
+
+#logo {
+	display: inline-block;
+	font-size: 10em;
+	max-width: 150px;
+	margin: auto;
+
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+a>#logo {
+	-webkit-transition: color .05s;
+	-moz-transition: color .05s;
+	-o-transition: color .05s;
+	transition: color .05s
+}
+
+a>#logo:hover {
+	color: #ef345d;
+	-webkit-transition: color .05s;
+	-moz-transition: color .05s;
+	-o-transition: color .05s;
+	transition: color .05s
+}
+
+#logo-subtitle {
+	letter-spacing: 2px;
+	font-size: 24px;
+	text-align: center;
+}
+
+#logo.glitch {
+	color: #63e39b;
+	position: relative
+}
+
+@-webkit-keyframes glitch-anim-1 {
+	0% {
+		clip: rect(61px, 150px, 72px, 0)
+	}
+	5.8823529412% {
+		clip: rect(156px, 150px, 182px, 0)
+	}
+	11.7647058824% {
+		clip: rect(75px, 150px, 119px, 0)
+	}
+	17.6470588235% {
+		clip: rect(70px, 150px, 139px, 0)
+	}
+	23.5294117647% {
+		clip: rect(169px, 150px, 43px, 0)
+	}
+	29.4117647059% {
+		clip: rect(26px, 150px, 28px, 0)
+	}
+	35.2941176471% {
+		clip: rect(63px, 150px, 70px, 0)
+	}
+	41.1764705882% {
+		clip: rect(136px, 150px, 28px, 0)
+	}
+	47.0588235294% {
+		clip: rect(100px, 150px, 26px, 0)
+	}
+	52.9411764706% {
+		clip: rect(13px, 150px, 108px, 0)
+	}
+	58.8235294118% {
+		clip: rect(174px, 150px, 10px, 0)
+	}
+	64.7058823529% {
+		clip: rect(110px, 150px, 175px, 0)
+	}
+	70.5882352941% {
+		clip: rect(139px, 150px, 122px, 0)
+	}
+	76.4705882353% {
+		clip: rect(152px, 150px, 15px, 0)
+	}
+	82.3529411765% {
+		clip: rect(182px, 150px, 195px, 0)
+	}
+	88.2352941176% {
+		clip: rect(119px, 150px, 75px, 0)
+	}
+	94.1176470588% {
+		clip: rect(16px, 150px, 56px, 0)
+	}
+	100% {
+		clip: rect(86px, 150px, 181px, 0)
+	}
+}
+
+@-moz-keyframes glitch-anim-1 {
+	0% {
+		clip: rect(55px, 150px, 30px, 0)
+	}
+	5.8823529412% {
+		clip: rect(148px, 150px, 175px, 0)
+	}
+	11.7647058824% {
+		clip: rect(193px, 150px, 14px, 0)
+	}
+	17.6470588235% {
+		clip: rect(43px, 150px, 50px, 0)
+	}
+	23.5294117647% {
+		clip: rect(61px, 150px, 129px, 0)
+	}
+	29.4117647059% {
+		clip: rect(115px, 150px, 51px, 0)
+	}
+	35.2941176471% {
+		clip: rect(135px, 150px, 114px, 0)
+	}
+	41.1764705882% {
+		clip: rect(66px, 150px, 160px, 0)
+	}
+	47.0588235294% {
+		clip: rect(15px, 150px, 100px, 0)
+	}
+	52.9411764706% {
+		clip: rect(117px, 150px, 165px, 0)
+	}
+	58.8235294118% {
+		clip: rect(150px, 150px, 137px, 0)
+	}
+	64.7058823529% {
+		clip: rect(133px, 150px, 78px, 0)
+	}
+	70.5882352941% {
+		clip: rect(25px, 150px, 101px, 0)
+	}
+	76.4705882353% {
+		clip: rect(144px, 150px, 96px, 0)
+	}
+	82.3529411765% {
+		clip: rect(108px, 150px, 130px, 0)
+	}
+	88.2352941176% {
+		clip: rect(49px, 150px, 145px, 0)
+	}
+	94.1176470588% {
+		clip: rect(138px, 150px, 145px, 0)
+	}
+	100% {
+		clip: rect(176px, 150px, 159px, 0)
+	}
+}
+
+@-o-keyframes glitch-anim-1 {
+	0% {
+		clip: rect(165px, 150px, 173px, 0)
+	}
+	5.8823529412% {
+		clip: rect(145px, 150px, 79px, 0)
+	}
+	11.7647058824% {
+		clip: rect(90px, 150px, 53px, 0)
+	}
+	17.6470588235% {
+		clip: rect(11px, 150px, 114px, 0)
+	}
+	23.5294117647% {
+		clip: rect(74px, 150px, 58px, 0)
+	}
+	29.4117647059% {
+		clip: rect(110px, 150px, 13px, 0)
+	}
+	35.2941176471% {
+		clip: rect(69px, 150px, 119px, 0)
+	}
+	41.1764705882% {
+		clip: rect(5px, 150px, 27px, 0)
+	}
+	47.0588235294% {
+		clip: rect(118px, 150px, 110px, 0)
+	}
+	52.9411764706% {
+		clip: rect(17px, 150px, 146px, 0)
+	}
+	58.8235294118% {
+		clip: rect(6px, 150px, 69px, 0)
+	}
+	64.7058823529% {
+		clip: rect(92px, 150px, 120px, 0)
+	}
+	70.5882352941% {
+		clip: rect(56px, 150px, 27px, 0)
+	}
+	76.4705882353% {
+		clip: rect(85px, 150px, 194px, 0)
+	}
+	82.3529411765% {
+		clip: rect(70px, 150px, 48px, 0)
+	}
+	88.2352941176% {
+		clip: rect(13px, 150px, 106px, 0)
+	}
+	94.1176470588% {
+		clip: rect(63px, 150px, 23px, 0)
+	}
+	100% {
+		clip: rect(108px, 150px, 151px, 0)
+	}
+}
+
+@keyframes glitch-anim-1 {
+	0% {
+		clip: rect(61px, 150px, 129px, 0)
+	}
+	5.8823529412% {
+		clip: rect(187px, 150px, 5px, 0)
+	}
+	11.7647058824% {
+		clip: rect(73px, 150px, 154px, 0)
+	}
+	17.6470588235% {
+		clip: rect(179px, 150px, 124px, 0)
+	}
+	23.5294117647% {
+		clip: rect(17px, 150px, 135px, 0)
+	}
+	29.4117647059% {
+		clip: rect(108px, 150px, 15px, 0)
+	}
+	35.2941176471% {
+		clip: rect(129px, 150px, 52px, 0)
+	}
+	41.1764705882% {
+		clip: rect(89px, 150px, 56px, 0)
+	}
+	47.0588235294% {
+		clip: rect(92px, 150px, 41px, 0)
+	}
+	52.9411764706% {
+		clip: rect(137px, 150px, 138px, 0)
+	}
+	58.8235294118% {
+		clip: rect(189px, 150px, 24px, 0)
+	}
+	64.7058823529% {
+		clip: rect(127px, 150px, 107px, 0)
+	}
+	70.5882352941% {
+		clip: rect(115px, 150px, 123px, 0)
+	}
+	76.4705882353% {
+		clip: rect(189px, 150px, 111px, 0)
+	}
+	82.3529411765% {
+		clip: rect(111px, 150px, 75px, 0)
+	}
+	88.2352941176% {
+		clip: rect(169px, 150px, 57px, 0)
+	}
+	94.1176470588% {
+		clip: rect(25px, 150px, 190px, 0)
+	}
+	100% {
+		clip: rect(147px, 150px, 163px, 0)
+	}
+}
+
+@-webkit-keyframes glitch-anim-2 {
+	0% {
+		clip: rect(162px, 150px, 80px, 0)
+	}
+	5.8823529412% {
+		clip: rect(162px, 150px, 55px, 0)
+	}
+	11.7647058824% {
+		clip: rect(112px, 150px, 82px, 0)
+	}
+	17.6470588235% {
+		clip: rect(174px, 150px, 90px, 0)
+	}
+	23.5294117647% {
+		clip: rect(125px, 150px, 4px, 0)
+	}
+	29.4117647059% {
+		clip: rect(135px, 150px, 122px, 0)
+	}
+	35.2941176471% {
+		clip: rect(98px, 150px, 5px, 0)
+	}
+	41.1764705882% {
+		clip: rect(84px, 150px, 95px, 0)
+	}
+	47.0588235294% {
+		clip: rect(129px, 150px, 71px, 0)
+	}
+	52.9411764706% {
+		clip: rect(102px, 150px, 168px, 0)
+	}
+	58.8235294118% {
+		clip: rect(36px, 150px, 128px, 0)
+	}
+	64.7058823529% {
+		clip: rect(145px, 150px, 82px, 0)
+	}
+	70.5882352941% {
+		clip: rect(100px, 150px, 119px, 0)
+	}
+	76.4705882353% {
+		clip: rect(144px, 150px, 103px, 0)
+	}
+	82.3529411765% {
+		clip: rect(88px, 150px, 99px, 0)
+	}
+	88.2352941176% {
+		clip: rect(5px, 150px, 104px, 0)
+	}
+	94.1176470588% {
+		clip: rect(179px, 150px, 15px, 0)
+	}
+	100% {
+		clip: rect(60px, 150px, 14px, 0)
+	}
+}
+
+@-moz-keyframes glitch-anim-2 {
+	0% {
+		clip: rect(175px, 150px, 24px, 0)
+	}
+	5.8823529412% {
+		clip: rect(106px, 150px, 78px, 0)
+	}
+	11.7647058824% {
+		clip: rect(61px, 150px, 133px, 0)
+	}
+	17.6470588235% {
+		clip: rect(106px, 150px, 52px, 0)
+	}
+	23.5294117647% {
+		clip: rect(35px, 150px, 177px, 0)
+	}
+	29.4117647059% {
+		clip: rect(149px, 150px, 33px, 0)
+	}
+	35.2941176471% {
+		clip: rect(141px, 150px, 53px, 0)
+	}
+	41.1764705882% {
+		clip: rect(169px, 150px, 100px, 0)
+	}
+	47.0588235294% {
+		clip: rect(15px, 150px, 111px, 0)
+	}
+	52.9411764706% {
+		clip: rect(55px, 150px, 145px, 0)
+	}
+	58.8235294118% {
+		clip: rect(84px, 150px, 33px, 0)
+	}
+	64.7058823529% {
+		clip: rect(64px, 150px, 34px, 0)
+	}
+	70.5882352941% {
+		clip: rect(119px, 150px, 70px, 0)
+	}
+	76.4705882353% {
+		clip: rect(78px, 150px, 69px, 0)
+	}
+	82.3529411765% {
+		clip: rect(85px, 150px, 105px, 0)
+	}
+	88.2352941176% {
+		clip: rect(194px, 150px, 7px, 0)
+	}
+	94.1176470588% {
+		clip: rect(5px, 150px, 9px, 0)
+	}
+	100% {
+		clip: rect(13px, 150px, 60px, 0)
+	}
+}
+
+@-o-keyframes glitch-anim-2 {
+	0% {
+		clip: rect(40px, 150px, 61px, 0)
+	}
+	5.8823529412% {
+		clip: rect(159px, 150px, 35px, 0)
+	}
+	11.7647058824% {
+		clip: rect(105px, 150px, 121px, 0)
+	}
+	17.6470588235% {
+		clip: rect(161px, 150px, 60px, 0)
+	}
+	23.5294117647% {
+		clip: rect(2px, 150px, 53px, 0)
+	}
+	29.4117647059% {
+		clip: rect(39px, 150px, 20px, 0)
+	}
+	35.2941176471% {
+		clip: rect(1px, 150px, 6px, 0)
+	}
+	41.1764705882% {
+		clip: rect(193px, 150px, 124px, 0)
+	}
+	47.0588235294% {
+		clip: rect(114px, 150px, 174px, 0)
+	}
+	52.9411764706% {
+		clip: rect(41px, 150px, 178px, 0)
+	}
+	58.8235294118% {
+		clip: rect(118px, 150px, 61px, 0)
+	}
+	64.7058823529% {
+		clip: rect(125px, 150px, 161px, 0)
+	}
+	70.5882352941% {
+		clip: rect(133px, 150px, 135px, 0)
+	}
+	76.4705882353% {
+		clip: rect(23px, 150px, 160px, 0)
+	}
+	82.3529411765% {
+		clip: rect(98px, 150px, 26px, 0)
+	}
+	88.2352941176% {
+		clip: rect(191px, 150px, 11px, 0)
+	}
+	94.1176470588% {
+		clip: rect(152px, 150px, 184px, 0)
+	}
+	100% {
+		clip: rect(37px, 150px, 20px, 0)
+	}
+}
+
+@keyframes glitch-anim-2 {
+	0% {
+		clip: rect(40px, 150px, 53px, 0)
+	}
+	5.8823529412% {
+		clip: rect(4px, 150px, 69px, 0)
+	}
+	11.7647058824% {
+		clip: rect(93px, 150px, 170px, 0)
+	}
+	17.6470588235% {
+		clip: rect(59px, 150px, 176px, 0)
+	}
+	23.5294117647% {
+		clip: rect(111px, 150px, 86px, 0)
+	}
+	29.4117647059% {
+		clip: rect(126px, 150px, 55px, 0)
+	}
+	35.2941176471% {
+		clip: rect(86px, 150px, 81px, 0)
+	}
+	41.1764705882% {
+		clip: rect(35px, 150px, 58px, 0)
+	}
+	47.0588235294% {
+		clip: rect(188px, 150px, 133px, 0)
+	}
+	52.9411764706% {
+		clip: rect(132px, 150px, 135px, 0)
+	}
+	58.8235294118% {
+		clip: rect(146px, 150px, 30px, 0)
+	}
+	64.7058823529% {
+		clip: rect(185px, 150px, 167px, 0)
+	}
+	70.5882352941% {
+		clip: rect(109px, 150px, 68px, 0)
+	}
+	76.4705882353% {
+		clip: rect(178px, 150px, 44px, 0)
+	}
+	82.3529411765% {
+		clip: rect(33px, 150px, 169px, 0)
+	}
+	88.2352941176% {
+		clip: rect(134px, 150px, 75px, 0)
+	}
+	94.1176470588% {
+		clip: rect(104px, 150px, 171px, 0)
+	}
+	100% {
+		clip: rect(53px, 150px, 142px, 0)
+	}
+}
+
+#logo.glitch:before,
+#logo.glitch:after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #101010;
+	clip: rect(0, 0, 0, 0)
+}
+
+#logo.glitch:after {
+	left: 2px;
+	text-shadow: -1px 0 red;
+	animation: glitch-anim-1 2s infinite linear alternate-reverse
+}
+
+#logo.glitch:before {
+	left: -2px;
+	text-shadow: 2px 0 blue;
+	animation: glitch-anim-2 3s infinite linear alternate-reverse
+}
+</style>
+
+<foreignObject width="100%" height="100%">
+	<div xmlns="http://www.w3.org/1999/xhtml">
+		<div id="main">
+			<h1 class="glitch symbol left" id="logo" data-text="🝰">🝰</h1>
+			<span class="right">
+				<h2 id="logo-subtitle"><a href="https://snai.pe/">snai.pe</a></h2>
+				Engineer at Hand, and Artist at Heart; <br />
+				<br />
+				In a journey to leave a lasting mark, <br />
+				Permuting around all the moving parts, <br />
+				To find the passion, to ignite the spark, <br />
+				<br />
+				In the machine made god of contemporal time. <br />
+			</span>
+		</div>
+	</div>
+</foreignObject>
+</svg>
